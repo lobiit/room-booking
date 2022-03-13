@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const roomschema = mongoose.schema({
+const roomSchema = mongoose.Schema({
     name: {
         type: String,
         required: true
